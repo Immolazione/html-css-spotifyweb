@@ -58,6 +58,15 @@ body {
 .block {
     display: block;
 }
+
+.w-15 {
+    width: 15%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
 /* BODY */
 
 #body {
@@ -164,4 +173,26 @@ body {
 #player {
     height: 6rem;
     background-color: #282828;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playing {
+    display: flex;
+    align-items: center;
+}
+
+.playing > .song-details {
+    flex-grow: 1;
+    margin-left: 1rem;
+}
+
+.playing > .buttons > a:first-child {
+    margin-right: 0.5rem;
+}
+
+.playing > img {
+    width: 3.5rem;
 }
