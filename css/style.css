@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -12,6 +12,19 @@ body {
 }
 
 /* UTILITIES */
+
+.white {
+    color: white;
+}
+
+.inlinebl {
+    display: inline-block;
+}
+
+.margin-04 {
+    margin: 0.4rem 0;
+}
+
 
 /* BODY */
 
@@ -23,12 +36,36 @@ body {
 /* SIDEBAR */
 
 .sidebar {
-    width: 10rem;
+    width: 15rem;
     height: 100%;
     background-color: #000;
     display: flex;
     flex-direction: column;
+    padding: 1rem;
 }
+
+.sidebar > div > img {
+    width: 8rem;
+    margin-bottom: 2rem;
+}
+
+/* NAVIGATION */
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation > li > i {
+    font-size: 1.4rem;
+    width: 1.5rem;
+}
+
+
+.nav {
+    margin-bottom: 0.8rem;
+}
+
 
 /* HOME */
 

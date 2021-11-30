@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Federico_Bernardi">
     <meta name="description" content="Spotify">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
@@ -13,13 +16,44 @@
 </head>
 <body>
     <div id="body">
-        <div class="sidebar"></div>
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+            <!-- SIDEBAR DETAILS -->
+            <div class="nav">
+                <!-- LOGO -->
+                <img src="img/logo.svg" alt="Logo_Spotify">
+                <!-- NAVIGATION LIST -->
+                <ul class="navigation">
+                    <li class="white inlinebl margin-04"><i class="white fas fa-home"></i>
+                        <span class="inlinebl">Home</span>
+                    </li>
+                    <li class="white inlinebl margin-04"><i class="white fas fa-search"></i>
+                        <span class="inlinebl">Cerca</span>
+                    </li>
+                    <li class="white inlinebl margin-04"><i class="white fas fa-book"></i>
+                        <span class="inlinebl">La tua Libreria</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- PLAYLIST -->
+            <div class="playlist">
+                <h2 class="white">PLAYLIST</h2>
+                <!-- ADD PLAYLIST  -->
+                <button class="inlinebl"><i class="fas fa-plus"></i></button>
+                <div class="white">Crea Playlist</div>
+                <!-- PLAYLIST LIST(?) -->
+            </div>
+        </div>
+        <!-- HOME -->
         <div class="home">
+            <!-- TOPBAR -->
             <div class="topbar"></div>
+            <!-- HOMEPAGE -->
             <div class="homepage">
             </div>
         </div>
     </div>
+    <!-- PLAYER -->
     <div id="player"></div>
 </body>
 </html>
