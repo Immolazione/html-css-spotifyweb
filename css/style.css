@@ -7,20 +7,47 @@
     font-family: sans-serif;
 }
 
+body {
+    height: calc(100vh - 8rem);
+}
+
 /* UTILITIES */
-
-/* #080B12
-
-#141922
-
-#282828 */
 
 /* BODY */
 
+#body {
+    height: 100%;
+    display: flex;
+}
+
 /* SIDEBAR */
+
+.sidebar {
+    width: 8rem;
+    height: 100%;
+    background-color: #000;
+}
 
 /* HOME */
 
+.home {
+    background-color: #141922;
+    height: 100%;
+    width: 100%;
+}
+
 /* TOPBAR */
 
+.topbar {
+    width: 100%;
+    height: 10rem;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 /* PLAYER */
+
+#player {
+    height: 8rem;
+    background-color: #282828;
+}
