@@ -8,7 +8,7 @@
 }
 
 body {
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 6rem);
 }
 
 /* UTILITIES */
@@ -23,7 +23,7 @@ body {
 /* SIDEBAR */
 
 .sidebar {
-    width: 8rem;
+    width: 10rem;
     height: 100%;
     background-color: #000;
 }
@@ -34,13 +34,19 @@ body {
     background-color: #141922;
     height: 100%;
     width: 100%;
+    overflow-y: scroll;
+}
+
+.homepage {
+    margin-top: 5rem;
+    color: white;
 }
 
 /* TOPBAR */
 
 .topbar {
     width: 100%;
-    height: 10rem;
+    height: 5rem;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -48,6 +54,6 @@ body {
 /* PLAYER */
 
 #player {
-    height: 8rem;
+    height: 6rem;
     background-color: #282828;
 }
