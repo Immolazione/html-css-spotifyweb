@@ -82,6 +82,7 @@ body {
     background-color: #000;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
     padding: 1rem;
 }
 
@@ -139,7 +140,7 @@ body {
 .home {
     background-color: #141922;
     height: 100%;
-    width: 100%;
+    flex-grow: 1;
     overflow-y: auto;
 }
 
@@ -151,18 +152,19 @@ body {
 /* TOPBAR */
 
 #topbar {
-    width: 100%;
     height: 5rem;
     position: fixed;
+    right: 0;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: flex-end;
+    width: calc(100% - 15rem);
     align-items: center;
+    padding: 2rem;
 }
 
 #topbar > a[class^="btn"] {
     padding: 1rem 1.5rem;
-    right: 16rem;
     border: 1px solid white;
     border-radius: 1.5rem;
 }
