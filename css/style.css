@@ -20,6 +20,11 @@ body {
 .text-deco-none {
     text-decoration: none;
 }
+
+.black {
+    color: black;
+}
+
 .grey {
     color: #6D6D6D;
 }
@@ -114,8 +119,8 @@ body {
     flex-grow: 1;
 }
 
-.playlist > a > button {
-    padding: 0.6rem 0.7rem;
+.playlist > a > div:first-child {
+    padding: 0.6rem 0.75rem;
     background-color: #6D6D6D;
     border: 0;
 }
@@ -172,6 +177,7 @@ body {
 
 /* PLAYER */
 
+/* LEFT */
 #player {
     height: 6rem;
     background-color: #282828;
@@ -199,6 +205,8 @@ body {
     width: 3.5rem;
 }
 
+/* CENTER */
+
 .play-buttons {
     display: flex;
     justify-content: space-between;
@@ -215,11 +223,38 @@ body {
 }
 
 
-.play-bar {
+.play-progression > a {
     width: 80%;
     height: 5px;
     background-color: #6D6D6D;
     border-radius: 2px;
-    vertical-align: middle;
 }
 
+.play-progression .play-bar > .play-bar-value {
+    width: 30%;
+    height: 5px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+/* RIGHT */
+
+.w-15 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.w-15 > a[class$="volume"] {
+    width: 40%;
+    height: 5px;
+    background-color: #6D6D6D;
+    border-radius: 2px;
+}
+
+.w-15 .volume-bar > .volume-bar-value {
+    width: 30%;
+    height: 5px;
+    background-color: white;
+    border-radius: 2px;
+}
