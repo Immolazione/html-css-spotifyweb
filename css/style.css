@@ -140,7 +140,7 @@ body {
     background-color: #141922;
     height: 100%;
     width: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .homepage {
