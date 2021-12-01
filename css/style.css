@@ -178,12 +178,12 @@ body {
 
 .homepage {
     width: calc(100% - 6rem);
+    padding: 1rem 1.5rem;
 }
 
 .homepage .homepage-navbar {
     width: 60%;
     margin: 0 auto;
-    padding-top: 1rem;
 }
 
 .homepage-navbar .home-nav-list {
