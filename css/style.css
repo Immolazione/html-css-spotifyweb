@@ -91,7 +91,7 @@ body {
     padding: 1rem;
 }
 
-.sidebar > div > img {
+.sidebar > nav > img {
     width: 8rem;
     margin-bottom: 2rem;
 }
@@ -174,10 +174,15 @@ body {
     border-radius: 1.5rem;
 }
 
+/* HOMEPAGE */
+
+.homepage {
+    width: calc(100% - 6rem);
+}
+
 
 /* PLAYER */
 
-/* LEFT */
 #player {
     height: 6rem;
     background-color: #282828;
@@ -187,10 +192,7 @@ body {
     align-items: center;
 }
 
-.playing {
-    display: flex;
-    align-items: center;
-}
+/* LEFT */
 
 .playing > .song-details {
     flex-grow: 1;
