@@ -15,8 +15,11 @@ img {
     max-width: 100%;
 }
 
-
 /* UTILITIES */
+
+.hover-scale:hover {
+    transform: scale(1.1);
+}
 
 .hover-white:hover {
     color: white;
@@ -201,7 +204,7 @@ img {
     justify-content: flex-end;
     width: calc(100% - 60px);
     align-items: center;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 #topbar > a[class^="btn"] {
