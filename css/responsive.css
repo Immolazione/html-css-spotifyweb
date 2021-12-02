@@ -1,4 +1,10 @@
-@media screen and (min-width:576px) {
+/* MOBILE VERSI0N */
+
+
+
+@media screen and (min-width:576px) { 
+
+    /* SMALL VERSION */
 
     .dis-none {
         display: inline-block;
@@ -42,7 +48,11 @@
 
 }
 
+
+
 @media screen and (min-width:768px){
+
+    /* MEDIUM VERSION */
 
     .dis-none {
         display: inline-block;
@@ -103,6 +113,9 @@
 }
 
 @media screen and (min-width:992px) {
+
+    /* LARGE VERSION */
+    
     #topbar {
         width: calc(100% - 250px);
     }
