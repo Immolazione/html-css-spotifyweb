@@ -11,6 +11,10 @@ body {
     height: calc(100vh - 6rem);
 }
 
+img {
+    max-width: 100%;
+}
+
 /* UTILITIES */
 
 .posabs {
@@ -101,13 +105,13 @@ body {
 /* SIDEBAR */
 
 .sidebar {
-    width: 15rem;
+    width: 250px;
     height: 100%;
     background-color: #000;
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
     padding: 1rem;
+    overflow-y: hidden;
 }
 
 .sidebar > nav > img {
@@ -146,7 +150,6 @@ body {
 
 /* USER PROFILE */
 
-
 .user-profile > a:first-child > svg {
     width: 1rem;
     height: 1rem;
@@ -166,6 +169,7 @@ body {
     height: 100%;
     flex-grow: 1;
     overflow-y: auto;
+    width: calc(100% - 250px);
 }
 
 .homepage {
@@ -182,7 +186,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: flex-end;
-    width: calc(100% - 15rem);
+    width: calc(100% - 250px);
     align-items: center;
     padding: 2rem;
 }
@@ -220,11 +224,7 @@ body {
 
 .recently-played-results > a {
     margin: 0 10px;
-}
-
-.recently-played-results > a > img {
-    width: 200px;
-    height: 200px;
+    width: calc(100% / 6 - 20px);
 }
 
 .recently-played-results > a > .text-center {
@@ -240,12 +240,9 @@ body {
 
 .chosen4u > .chosen-album > a {
     margin: 0 10px;
+    width: calc(100% / 6 - 20px);
 }
 
-.chosen4u > .chosen-album > a > img {
-    width: 200px;
-    height: 200px;
-}
 
 .chosen4u > .chosen-album > a > .text-center {
     max-width: 200px;
@@ -260,11 +257,7 @@ body {
 
 .popular-artists > .popular-album > a {
     margin: 0 10px;
-}
-
-.popular-artists > .popular-album > a > img {
-    width: 200px;
-    height: 200px;
+    width: calc(100% / 6 - 20px);
 }
 
 .popular-artists > .popular-album > a > .text-center {
