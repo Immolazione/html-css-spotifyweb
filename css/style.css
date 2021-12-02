@@ -17,6 +17,11 @@ img {
 
 /* UTILITIES */
 
+.hover-play:hover {
+    filter: opacity(0.5);
+    content: '\f144';
+}
+
 .hover-scale:hover {
     transform: scale(1.1);
 }
