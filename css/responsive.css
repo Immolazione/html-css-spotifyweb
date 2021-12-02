@@ -44,6 +44,18 @@
 
 @media screen and (min-width:768px){
 
+    .dis-none {
+        display: inline-block;
+    }
+
+    #topbar {
+        width: calc(100% - 250px);
+    }
+
+    #topbar {
+        width: calc(100% - 250px);
+    }
+    
     .recently-played-results > a {
         width: calc(100% / 4 - 20px);
     }
@@ -55,6 +67,39 @@
     .popular-artists > .popular-album > a {
      width: calc(100% / 4 - 20px);
     }
+
+    .sidebar {
+        width: 250px;
+    }
+
+    .sidebar > nav > img:first-child {
+        width: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    .sidebar > nav > .small-logo {
+        display: none;
+    }
+
+    .nav {
+        flex-grow: 0;
+    }
+    .playlist {
+        flex-grow: 1;
+    }
+
+    .user-profile > a:first-child > svg {
+        margin-bottom: 0;
+    }
+
+    .user-profile > hr {
+        width: 100%;
+    }
+
+    .home {
+        width: calc(100% - 250px);
+    }
+
 }
 
 @media screen and (min-width:992px) {
