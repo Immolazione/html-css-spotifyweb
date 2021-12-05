@@ -157,10 +157,14 @@ img {
     margin-bottom: 0.8rem;
 }
 
-/* PLAYLIST */
-
 .nav {
     flex-grow: 1;
+}
+
+/* PLAYLIST */
+
+.playlist {
+    overflow-y: auto;
 }
 
 .playlist > a > div:first-child {
