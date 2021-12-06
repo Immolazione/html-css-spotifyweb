@@ -19,7 +19,7 @@ img {
 
 .hover-play:hover {
     filter: opacity(0.5);
-    content: '\f144';
+    display: inline-block;
 }
 
 .hover-scale:hover {
@@ -245,6 +245,14 @@ img {
 }
 
 /* RECENTLY PLAYED */
+.recently-played-results .posrel > i {
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: white;
+}
 
 .recently-played-results {
     display: flex;
