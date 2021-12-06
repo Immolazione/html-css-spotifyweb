@@ -308,6 +308,11 @@ img {
     max-width: 20%;
 }
 
+.playing > .song-details .name-song:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 /* CENTER */
 
 .play-buttons {
