@@ -17,9 +17,12 @@ img {
 
 /* UTILITIES */
 
+.active {
+    color: white;
+}
+
 .hover-play:hover {
     filter: opacity(0.5);
-    display: inline-block;
 }
 
 .hover-scale:hover {
